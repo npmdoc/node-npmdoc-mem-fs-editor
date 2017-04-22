@@ -1,6 +1,6 @@
 # npmdoc-mem-fs-editor
 
-#### api documentation for  mem-fs-editor (v3.0.2)  [![npm package](https://img.shields.io/npm/v/npmdoc-mem-fs-editor.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mem-fs-editor) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mem-fs-editor.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mem-fs-editor)
+#### api documentation for  [mem-fs-editor (v3.0.2)](https://github.com/sboudrias/mem-fs-editor#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mem-fs-editor.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mem-fs-editor) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mem-fs-editor.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mem-fs-editor)
 
 #### File edition helpers working on top of mem-fs
 
@@ -21,21 +21,12 @@
 ```json
 
 {
-    "name": "mem-fs-editor",
-    "version": "3.0.2",
-    "description": "File edition helpers working on top of mem-fs",
-    "scripts": {
-        "pretest": "eslint **/*.js",
-        "test": "jest",
-        "prepublish": "nsp check"
+    "author": {
+        "name": "Simon Boudrias"
     },
-    "repository": "SBoudrias/mem-fs-editor",
-    "author": "Simon Boudrias",
-    "license": "MIT",
-    "main": "lib/index.js",
-    "files": [
-        "lib"
-    ],
+    "bugs": {
+        "url": "https://github.com/sboudrias/mem-fs-editor/issues"
+    },
     "dependencies": {
         "commondir": "^1.0.1",
         "deep-extend": "^0.4.0",
@@ -48,6 +39,7 @@
         "through2": "^2.0.0",
         "vinyl": "^2.0.1"
     },
+    "description": "File edition helpers working on top of mem-fs",
     "devDependencies": {
         "coveralls": "^2.11.15",
         "escape-regexp": "0.0.1",
@@ -58,10 +50,10 @@
         "nsp": "^2.6.2",
         "sinon": "^1.12.2"
     },
-    "jest": {
-        "collectCoverage": true,
-        "coverageDirectory": "coverage",
-        "testEnvironment": "node"
+    "directories": {},
+    "dist": {
+        "shasum": "dd0a6eaf2bb8a6b37740067aa549eb530105af9f",
+        "tarball": "https://registry.npmjs.org/mem-fs-editor/-/mem-fs-editor-3.0.2.tgz"
     },
     "eslintConfig": {
         "extends": "xo-space",
@@ -75,7 +67,37 @@
             ],
             "no-eq-null": 0
         }
-    }
+    },
+    "files": [
+        "lib"
+    ],
+    "gitHead": "a04935cb73e99a42e29acaee347dab8f3c862f3c",
+    "homepage": "https://github.com/sboudrias/mem-fs-editor#readme",
+    "jest": {
+        "collectCoverage": true,
+        "coverageDirectory": "coverage",
+        "testEnvironment": "node"
+    },
+    "license": "MIT",
+    "main": "lib/index.js",
+    "maintainers": [
+        {
+            "name": "sboudrias"
+        }
+    ],
+    "name": "mem-fs-editor",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sboudrias/mem-fs-editor.git"
+    },
+    "scripts": {
+        "prepublish": "nsp check",
+        "pretest": "eslint **/*.js",
+        "test": "jest"
+    },
+    "version": "3.0.2",
+    "bin": {}
 }
 ```
 
